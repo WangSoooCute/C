@@ -2,6 +2,7 @@
 #include<map>
 using namespace std;
 //map的底层是一个二叉搜索树
+//map相关见：https://en.cppreference.com/w/cpp/container/map
 
 int main(){
     map<int,int>findIndex;
