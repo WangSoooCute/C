@@ -17,7 +17,7 @@ int main(){
     int x;
     cin>>x;
 
-    if(findIndex.find(x)==findIndex.end())
+    if(findIndex.find(x)==findIndex.end())//find返回的是迭代器
         cout<<"NO!"<<endl;
     else{
         cout<<"yes!"<<endl;
